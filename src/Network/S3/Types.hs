@@ -28,5 +28,4 @@ data S3Request = S3Request {
     , mimeType        :: ByteString -- ^ MIME Type
     , bucketName      :: ByteString -- ^ Name of Amazon S3 Bucket
     , objectName      :: ByteString -- ^ Name of Amazon S3 File
-    , secondsToExpire :: Integer -- ^ Number of seconds until expiration
     } deriving (Generic, Show)
